@@ -1,6 +1,6 @@
 # Cost Optimization Toolkit
 
-An open-source toolkit designed to help users analyze their cloud usage across multiple providers and identify cost-saving opportunities. Built with Python and leveraging services from AWS, Azure, and Google Cloud Platform (GCP), this toolkit automates cost analysis, suggests optimizations, and provides actionable recommendations to reduce cloud expenses from day one.
+An open-source toolkit designed to help users analyze their cloud usage across multiple providers and identify cost-saving opportunities. Built with a **Node.js** backend, Python-powered machine learning modules, and a React frontend, the toolkit leverages services from AWS, Azure, and Google Cloud Platform (GCP) to automate cost analysis, suggest optimizations, and provide actionable recommendations to reduce cloud expenses from day one.
 
 ---
 
@@ -52,8 +52,8 @@ This toolkit is designed to provide a comprehensive, cross-cloud view of your in
 - Budget Tracking:  
   Set and monitor budgets with alerts for overspending across all cloud accounts.
 
-- Data Visualization:  
-  Leverage Python libraries such as Matplotlib, Plotly, or Dash to generate interactive and graphical insights.
+- Data Visualization:
+  The dashboard is built with React for a modern, responsive interface. Python libraries such as Matplotlib, Plotly, or Dash can still be used on the server side to generate analytical visuals.
 
 - Multi-Cloud Integration:  
   Aggregate cost data from AWS, Azure, and GCP using their respective APIs and SDKs, enabling side-by-side comparisons and consolidated reporting.
@@ -97,12 +97,16 @@ To deliver an all-in-one cost optimization solution from the outset, the toolkit
 
 ### Core Technologies
 
-- Python:  
-  The primary language for scripting, analysis, and building ML models.
+- **Node.js**:
+  Handles the backend API and server-side logic.
+- **Python**:
+  Powers machine learning and data analysis modules.
+- **React**:
+  Provides the frontend framework for interactive dashboards and user interfaces.
 
-- Cloud SDKs:  
-  - AWS SDK (Boto3): For programmatic access to AWS services.  
-  - Azure SDK (azure-mgmt): For interfacing with Azure resources.  
+- Cloud SDKs:
+  - AWS SDK (Boto3): For programmatic access to AWS services.
+  - Azure SDK (azure-mgmt): For interfacing with Azure resources.
   - Google Cloud SDK: For interacting with GCP services.
 
 ### Cloud Services
@@ -118,8 +122,10 @@ To deliver an all-in-one cost optimization solution from the outset, the toolkit
 
 ### Visualization Tools
 
-- Matplotlib / Plotly / Dash:  
-  Create interactive, data-driven visualizations and dashboards.
+- React & Chart Libraries:
+  Build responsive dashboards using React along with charting libraries like Chart.js or Recharts.
+- Matplotlib / Plotly / Dash:
+  For server-side analytics and report generation.
 
 ---
 
