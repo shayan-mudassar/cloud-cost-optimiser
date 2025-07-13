@@ -43,10 +43,10 @@ The Cost Optimization Toolkit is structured as a modular, multi-layered applicat
 
 ### 2.4 Visualization and Dashboard Layer
 
-- Purpose: Presents cost analysis results and optimization recommendations in a user-friendly, interactive format.
+- Purpose: Presents cost analysis results and optimization recommendations through a modern web interface.
 - Modules:
-  - dashboard.py: Hosts a web-based dashboard (e.g., using Flask/Dash) that displays real-time analytics.
-  - charts.py: Contains utilities to create data visualizations using Matplotlib or Plotly.
+  - **dashboard server**: Built with Node.js, it serves a React application for real-time analytics.
+  - **charts**: Utilities to create data visualizations using libraries like Chart.js on the frontend or Matplotlib/Plotly on the backend.
 
 ### 2.5 Advanced Features Layer
 
@@ -86,8 +86,8 @@ The Cost Optimization Toolkit is structured as a modular, multi-layered applicat
    - notifier.py sends alerts based on anomalies or threshold breaches.
 
 4. Visualization:  
-   - Processed data and reports are rendered on the dashboard.py.
-   - charts.py generates visual representations of cost trends and optimization insights.
+    - Processed data and reports are rendered through the Node.js/React dashboard.
+    - charts modules generate visual representations of cost trends and optimization insights.
 
 5. Advanced Features:  
    - The ml_prediction.py module uses historical data to forecast future costs.

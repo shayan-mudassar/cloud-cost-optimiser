@@ -20,7 +20,7 @@ This document outlines a step-by-step plan to build the fully integrated Cost Op
   - Initialize the Git repository with a clear branch strategy.
   - Setup issue tracking and project management tools.
 - Development Environment:
-  - Configure Python (3.8+), virtual environments, and dependency management.
+  - Configure Node.js (LTS) for the backend along with Python (3.8+) environments for ML/AI modules, and manage dependencies accordingly.
   - Setup continuous integration (CI) pipelines.
 - Project Skeleton:
   - Establish folder structure (e.g., `/src`, `/tests`, `/docs`).
