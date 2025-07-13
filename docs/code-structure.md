@@ -2,7 +2,8 @@ cost-optimization-toolkit/
 ├── README.md                 # Overview and documentation
 ├── roadmap.md                # Detailed project roadmap
 ├── LICENSE                   # License file (MIT License)
-├── requirements.txt          # Python dependencies list
+├── requirements.txt          # Python dependencies list (ML modules)
+├── package.json              # Node.js dependencies for the backend
 ├── .env                      # Environment configuration file
 ├── .gitignore                # Git ignore rules
 ├── setup.py                  # Optional: Package setup script for distribution
@@ -42,8 +43,8 @@ cost-optimization-toolkit/
 │   │
 │   ├── visualization/      # Data visualization and dashboard modules
 │   │   ├── __init__.py
-│   │   ├── dashboard.py      # Web dashboard for displaying reports and analytics (could use Dash or Flask)
-│   │   └── charts.py         # Functions for generating charts using Matplotlib/Plotly
+│   │   ├── dashboard/        # Node.js backend serving a React frontend for dashboards
+│   │   └── charts.py         # Chart utilities (React Chart.js on the frontend, Matplotlib/Plotly for backend analytics)
 │   │
 │   ├── advanced/           # Advanced features and future enhancements
 │   │   ├── __init__.py
