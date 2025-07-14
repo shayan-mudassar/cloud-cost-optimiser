@@ -1,0 +1,12 @@
+{
+  "name": "cost-optimization-toolkit",
+  "version": "0.1.0",
+  "description": "Node.js server for React dashboard",
+  "main": "src/visualization/dashboard/server.js",
+  "scripts": {
+    "start": "node src/visualization/dashboard/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
