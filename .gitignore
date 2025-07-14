@@ -1,0 +1,9 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Node dependencies
+node_modules/
+
+# OS files
+.DS_Store
